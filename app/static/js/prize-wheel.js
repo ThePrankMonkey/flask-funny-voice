@@ -1,3 +1,5 @@
+// https://github.com/miguelmota/prize-wheel
+
 (function (root) {
   "use strict";
 

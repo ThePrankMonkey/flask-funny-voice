@@ -1,3 +1,5 @@
+// https://github.com/miguelmota/prize-wheel
+
 // Wheel settings object
 var settings = {
   el: "#wheel", // Canvas ID
