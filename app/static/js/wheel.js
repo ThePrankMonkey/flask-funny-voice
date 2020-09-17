@@ -3,8 +3,8 @@
 // Wheel settings object
 var settings = {
   el: "#wheel", // Canvas ID
-  members: ["Angry", "Happy", "Sad", "Elderly", "Snakey", "Sleepy"], // Array of members
-  colors: ["#C7181D", "#FFFF33", "#5555FF", "#FFFFFF", "#00FF00", "#999999"], // Background color of each member
+  members: Object.keys(voices), // Array of members
+  colors: Object.values(voices), // Background color of each member
   radius: 250, // wheel radius
 };
 
