@@ -9,17 +9,19 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     </head>
     <body>
-        <div class="jumbotron text-center" style="margin-bottom:0">
-            <h1>Funny Voice Selector</h1>
+        <div class="container-fluid">
+            <div class="jumbotron text-center" style="margin-bottom:0">
+                <h1>Funny Voice Selector</h1>
+            </div>
         </div>
-        <div class="container display-2">
+        <div class="container-fluid display-2">
             You picked: <b><span id="funnyVoice">???</span></b>
         </div>
-        <div class="container">
+        <div class="container-fluid">
             <canvas id="wheel" onClick="window.location.reload();"></canvas>
         </div>
         <script type="text/javascript" src="{{ url_for('static', filename='js/wheel.js') }}"></script>
-        <div class="container">
+        <div class="container-fluid">
             <h2>Click the wheel to spin and pick a Funny Voice</h2>
             <h6>If you are curious, here is the <a href="{{ github }}">source code</a></h6>
         </div>
