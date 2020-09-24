@@ -1,7 +1,7 @@
 // Voices and colors.
 var voices = {
-  Angry: "#C7181D",
-  //   Echo: "#87CEFA",
+  // Angry: "#C7181D",
+  Echo: "#87CEFA",
   Elderly: "#FFFFFF",
   Happy: "#FFFF33",
   Sad: "#5555FF",
